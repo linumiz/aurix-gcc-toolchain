@@ -7,7 +7,7 @@ However, the download requires manual interaction and does not support
 direct URL fetching (wget/curl), making it unusable for CI pipelines.
 
 This repository mirrors the official Infineon AURIX GCC toolchain binaries
-under GitHub Releases to enable automated downloads for Zephyr RTOS CI builds.
+under GitHub/GitLab Releases to enable automated downloads for Zephyr RTOS CI builds.
 
 ## Version
 
@@ -15,8 +15,14 @@ under GitHub Releases to enable automated downloads for Zephyr RTOS CI builds.
 
 ## Usage
 
+### GitHub:
 ```
 wget https://github.com/Linumiz/aurix-gcc-toolchain/releases/download/v11.3.0/aurixgcc_03-2026_Linux_x86-x64.zip
+```
+
+### GitLab
+```
+wget https://gitlab.com/linumiz/infineon/development/aurix-gcc-toolchain/-/archive/v11.3.0/aurix-gcc-toolchain-v11.3.0.zip
 ```
 
 ## Disclaimer
